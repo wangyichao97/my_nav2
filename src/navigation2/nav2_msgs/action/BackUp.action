@@ -1,0 +1,11 @@
+#goal definition
+#目标点和速度
+geometry_msgs/Point target
+float32 speed
+---
+#result definition
+#表示机器人完成这个后退动作所花费的时间
+builtin_interfaces/Duration total_elapsed_time
+---
+#表示机器人已经后退的距离
+float32 distance_traveled
